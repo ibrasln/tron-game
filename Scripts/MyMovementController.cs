@@ -78,13 +78,13 @@ public class MyMovementController : MonoBehaviour
         {
             dir = otherDir1;
             currentDirection = otherStatus1;
-            Debug.Log("Diger1");
+            Debug.Log("Other1");
         }
         else if (Input.GetKey(otherButton2))
         {
             dir = otherDir2;
             currentDirection = otherStatus2;
-            Debug.Log("Diger2!");
+            Debug.Log("Other2");
         }
     }
 
